@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <base href="/"> -->
+
+    <title>OptimizedHTML 4</title>
+    <meta name="description" content="" />
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg" />
+    <link rel="icon" href="img/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png" />
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000" />
+    <!-- Custom Browsers Color End -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+
+  <body>
+    <!-- Custom HTML -->
+    <header class="header">
+      <div class="container-fluid">
+        <div class="header__body">
+          <div class="header__logo">
+            <img src="img/logo.png" alt="" />
+          </div>
+
+          <nav class="header__nav">
+            <ul class="topmenu menu-1">
+              <li class="active"><a href="">Услуги</a></li>
+              <li>
+                <a href="">О компании</a>
+                <ul class="submenu menu-2">
+                  <li><a href="">Сотрудничество</a></li>
+                  <li><a href="">Партнеры</a></li>
+                  <li><a href="">Новости</a></li>
+                </ul>
+              </li>
+              <li><a href="">Франшиза</a></li>
+              <li><a href="">Контакты</a></li>
+            </ul>
+          </nav>
+          <div class="header__right">
+            <div class="header__phone">
+              <a href="tel:+7(900)001-55-03">+7 (900) 001 55 03</a>
+            </div>
+            <div class="header__soc">
+              <ul>
+                <li>
+                  <a href="">
+                    <svg
+                      width="50"
+                      height="50"
+                      viewBox="0 0 57 58"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g clip-path="url(#clip0)">
+                        <path
+                          d="M15.0656 49.6747L15.9974 50.1434C19.8805 52.4864 24.2292 53.5799 28.5781 53.5799C42.2459 53.5799 53.4286 42.3329 53.4286 28.5864C53.4286 22.0257 50.7881 15.6211 46.1288 10.9347C41.4693 6.24835 35.2565 3.5929 28.5781 3.5929C14.9104 3.5929 3.72747 14.84 3.88289 28.7427C3.88289 33.4289 5.28072 37.9591 7.61038 41.8642L8.23159 42.8016L5.74674 52.018L15.0656 49.6747Z"
+                          fill="#00E676"
+                          fill-opacity="0.7"
+                        />
+                        <path
+                          d="M48.7691 8.43531C43.4883 2.96808 36.1885 0 28.7333 0C12.8914 0 0.155414 12.9654 0.310605 28.7425C0.310605 33.7412 1.70844 38.5839 4.03832 42.9576L0 57.7976L15.0656 53.8923C19.2591 56.2356 23.9184 57.3291 28.5782 57.3291C44.265 57.3291 57.0009 44.3635 57.0009 28.5866C57.0009 20.9322 54.0498 13.7464 48.7693 8.43531H48.7691ZM28.7333 52.4866C24.5398 52.4866 20.3463 51.3934 16.774 49.2064L15.8422 48.7377L6.83399 51.0808L9.16364 42.177L8.54243 41.2396C1.70844 30.1488 4.97013 15.4647 16.1528 8.59139C27.3355 1.71828 41.7799 4.99875 48.6139 16.2458C55.4476 27.4929 52.186 42.0204 41.0035 48.8938C37.431 51.2369 33.0823 52.4864 28.7333 52.4864V52.4866ZM42.4011 35.1476L40.6927 34.3665C40.6927 34.3665 38.2078 33.273 36.6546 32.4919C36.4991 32.4919 36.344 32.3356 36.1885 32.3356C35.7225 32.3356 35.4119 32.4919 35.1013 32.6482C35.1013 32.6482 34.9461 32.8043 32.7717 35.3036C32.6162 35.616 32.3056 35.7723 31.995 35.7723H31.8396C31.6844 35.7723 31.3738 35.616 31.2184 35.4599L30.4418 35.1476C28.7333 34.3665 27.1803 33.4291 25.9377 32.1795C25.6271 31.8671 25.161 31.5547 24.8504 31.2423C23.7632 30.1488 22.676 28.899 21.8996 27.4931L21.7442 27.1807C21.589 27.0244 21.589 26.8683 21.4336 26.5559C21.4336 26.2435 21.4336 25.9312 21.589 25.7748C21.589 25.7748 22.2102 24.9937 22.676 24.5253C22.9868 24.2127 23.142 23.7442 23.4526 23.4318C23.7632 22.9631 23.9186 22.3383 23.7632 21.8696C23.608 21.0885 21.7442 16.8708 21.2784 15.9337C20.9675 15.465 20.6572 15.3089 20.1911 15.1526H18.4827C18.1719 15.1526 17.8615 15.3089 17.5507 15.3089L17.3952 15.465C17.0846 15.6213 16.774 15.9337 16.4634 16.0897C16.1528 16.4024 15.9974 16.7145 15.6868 17.0271C14.5996 18.433 13.9784 20.1513 13.9784 21.8696C13.9784 23.1192 14.289 24.369 14.755 25.4625L14.9104 25.9312C16.3082 28.899 18.1719 31.5547 20.6572 33.8978L21.2784 34.5225C21.7442 34.9912 22.2102 35.3036 22.5208 35.7721C25.7825 38.5841 29.51 40.6148 33.7035 41.7083C34.1695 41.8644 34.7907 41.8644 35.2567 42.0207H36.8098C37.5864 42.0207 38.5182 41.7083 39.1396 41.3959C39.6054 41.0835 39.916 41.0835 40.2266 40.7711L40.5375 40.4585C40.8481 40.1461 41.1587 39.99 41.4693 39.6776C41.7799 39.3652 42.0905 39.0528 42.2459 38.7402C42.5565 38.1154 42.7117 37.3343 42.8671 36.5534V35.4599C42.8671 35.4599 42.7117 35.3036 42.4011 35.1476Z"
+                          fill="white"
+                        />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0">
+                          <rect width="57" height="58" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    <svg
+                      width="42"
+                      height="42"
+                      viewBox="0 0 48 48"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M24 0C10.7451 0 0 10.7451 0 24C0 37.2549 10.7451 48 24 48C37.2549 48 48 37.2549 48 24C48 10.7451 37.2549 0 24 0Z"
+                        fill="#40B3E0"
+                      />
+                      <path
+                        d="M35.678 13.8057L31.3912 35.4186C31.3912 35.4186 30.7918 36.9175 29.1431 36.1981L19.251 28.6141L15.654 26.8756L9.59884 24.8371C9.59884 24.8371 8.66959 24.5074 8.57959 23.788C8.48959 23.0686 9.62884 22.6789 9.62884 22.6789L33.6993 13.2364C33.6993 13.2364 35.6778 12.3672 35.6778 13.8061"
+                        fill="white"
+                      />
+                      <path
+                        d="M18.4909 35.1756C18.4909 35.1756 18.2021 35.1486 17.8421 34.0093C17.4827 32.8703 15.654 26.8751 15.654 26.8751L30.1924 17.6426C30.1924 17.6426 31.0318 17.133 31.0018 17.6426C31.0018 17.6426 31.1516 17.7326 30.7018 18.1523C30.2524 18.5721 19.2812 28.434 19.2812 28.434"
+                        fill="#D2E5F1"
+                      />
+                      <path
+                        d="M23.044 31.5216L19.1314 35.0889C19.1314 35.0889 18.8254 35.3211 18.4909 35.1756L19.2402 28.5493"
+                        fill="#B5CFE4"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="header__btn">
+              <a href="#" class="btn">Обратный звонок</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="main-swiper">
+        <div class="main__slider swiper-wrapper">
+          <div class="main__slide swiper-slide">
+            <img src="img/slide1.jpg" alt="" />
+          </div>
+          <div class="main__slide swiper-slide">
+            <img src="img/slide1.jpg" alt="" />
+          </div>
+          <div class="main__slide swiper-slide">
+            <img src="img/slide1.jpg" alt="" />
+          </div>
+          <div class="main__slide swiper-slide">
+            <img src="img/slide1.jpg" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-next main-button-next"></div>
+        <div class="swiper-button-prev main-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="main__slide-body">
+        <h1 class="title-h1">
+          Интернет аптеки <br />
+          ГК «Главное здоровье»
+        </h1>
+        <span>Франшиза</span>
+        <div class="slide-body__btn">
+          <a href="" class="btn">Стать партнером</a>
+          <a href="" class="btn download-btn">Скачать <img src="img/btn-icon.svg" alt="" /></a>
+        </div>
+      </div>
+      <div class="scroll-down">
+        <svg
+          width="28"
+          height="44"
+          viewBox="0 0 28 44"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect
+            x="0.5"
+            y="0.5"
+            width="27"
+            height="43"
+            rx="13.5"
+            stroke="white"
+            stroke-opacity="0.6"
+          />
+        </svg>
+      </div>
+    </main>
+
+    <section class="services">
+      <div class="container-fluid">
+        <div class="services__body">
+          <div class="title-block">
+            <h2 class="title-h2">Услуги</h2>
+          </div>
+
+          <ul class="services__list">
+            <li>
+              <img src="img/serv-item.svg" alt="" />
+              <div class="services__title">
+                <span>Консультации по препаратам</span>
+              </div>
+            </li>
+            <li>
+              <img src="img/serv-item.svg" alt="" />
+              <div class="services__title">
+                <span>Консультация пациентов</span>
+              </div>
+            </li>
+            <li>
+              <img src="img/serv-item.svg" alt="" />
+              <div class="services__title">
+                <span>Медицинский туризм</span>
+              </div>
+            </li>
+            <li>
+              <img src="img/serv-item.svg" alt="" />
+              <div class="services__title">
+                <span>Автоматизация бизнес-процессов</span>
+              </div>
+            </li>
+            <li>
+              <img src="img/serv-item.svg" alt="" />
+              <div class="services__title">
+                <span>Техническая поддержка</span>
+              </div>
+            </li>
+            <li>
+              <img src="img/serv-item.svg" alt="" />
+              <div class="services__title">
+                <span>Разработка и продвижение сайтов</span>
+              </div>
+            </li>
+            <li>
+              <img src="img/serv-item.svg" alt="" />
+              <div class="services__title">
+                <span>Написание текстов</span>
+              </div>
+            </li>
+            <li>
+              <img src="img/serv-item.svg" alt="" />
+              <div class="services__title">
+                <span>Раскрутка и продюсирование врачей</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container-fluid">
+        <div class="about__body">
+          <div class="title-block">
+            <h2 class="title-h2">О компании</h2>
+          </div>
+
+          <div class="about__content">
+            <div class="about__text">
+              <h3>«Главное Здоровье» - Группа компаний по продаже франшизы Интернет-аптек</h3>
+              <p>
+                Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem
+                Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то
+                время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
+                используя Lorem Ipsum для распечатки образцов.
+              </p>
+              <p>
+                Lorem Ipsum не только успешно пережил без заметных изменений пять веков, но и
+                перешагнул в электронный дизайн. Его популяризации в новое время послужили
+                публикация листов Letraset с образцами Lorem Ipsum в 60-х
+              </p>
+
+              <a href=""
+                >Подробнее<svg
+                  width="7"
+                  height="12"
+                  viewBox="0 0 7 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.53033 6.53033C6.82322 6.23744 6.82322 5.76256 6.53033 5.46967L1.75736 0.696699C1.46447 0.403805 0.989593 0.403805 0.6967 0.696699C0.403806 0.989592 0.403806 1.46447 0.6967 1.75736L4.93934 6L0.696699 10.2426C0.403805 10.5355 0.403805 11.0104 0.696699 11.3033C0.989592 11.5962 1.46447 11.5962 1.75736 11.3033L6.53033 6.53033ZM5 6.75L6 6.75L6 5.25L5 5.25L5 6.75Z"
+                    fill="#03919B"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="about__img">
+              <img src="img/about-img.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="statistics">
+      <div class="container-fluid">
+        <div class="statistics__body">
+          <ul class="statistics__content">
+            <li><span>5</span>Лет на рынке</li>
+            <li><span>39 535</span>Вылечено пациентов</li>
+            <li><span>132</span>зарубежных компании доверили нам дистрибьюцию своих препаратов</li>
+            <li><span>120</span>информационных сайтов и интернет-аптек</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+	<section class="news">
+		<div class="container-fluid">
+			<div class="news__body">
+				<div class="title-block">
+					<h3 class="title-h2">Новости</h3>
+				  </div>
+				<div class="news__slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide new-slide">
+							<div class="swiper-slide__img">
+								<img src="img/logo.png" alt="" class="news-logo">
+								<img src="img/news-slide-1.jpg" alt="">
+							</div>
+							<div class="swiper-slide__text">
+								<h5>Где его взять?</h5>
+								<p>Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют</p>
+							</div>
+						</div>
+						<div class="swiper-slide new-slide">
+							<div class="swiper-slide__img">
+								<img src="img/news-slide-2.jpg" alt="">
+							</div>
+							<div class="swiper-slide__text">
+								<h5>Этот трактат по теории этики</h5>
+								<p>Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют</p>
+							</div>
+						</div>
+						<div class="swiper-slide new-slide">
+							<div class="swiper-slide__img">
+								<img src="img/logo.png" alt="" class="news-logo">
+								<img src="img/news-slide-1.jpg" alt="">
+							</div>
+							<div class="swiper-slide__text">
+								<h5>Где его взять?</h5>
+								<p>Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют</p>
+							</div>
+						</div>
+						<div class="swiper-slide new-slide">
+							<div class="swiper-slide__img">
+								<img src="img/news-slide-2.jpg" alt="">
+							</div>
+							<div class="swiper-slide__text">
+								<h5>Где его взять?</h5>
+								<p>Классический текст Lorem Ipsum, используемый с XVI века, приведён ниже. Также другие известные генераторы Lorem Ipsum используют один и тот же текст, который они просто повторяют</p>
+							</div>
+						</div>
+					</div>
+					<div class="news-button-next swiper-button-next"></div>
+					<div class="news-button-prev swiper-button-prev"></div>
+				</div>
+				<div class="news__btn-wrapper">
+					<a href="#" class="btn news__btn">Все новости</a>
+				</div>
+			</div>
+		</div>
+	</section>
+    <section class="partnership">
+      <div class="container-fluid">
+        <div class="partnership__body">
+          <div class="title-block">
+            <h3 class="title-h2">Партнерство</h3>
+          </div>
+          <div class="partnership__content">
+            <div class="partnership__left">
+              <div class="partnership__info">
+                <p>Нам доверяют более 50 партнеров по всей России</p>
+                <a href="" class="btn partnership__btn">Стать партнером</a>
+
+                <div class="partnership__icon">
+                  <img src="img/serv-item.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="partnership__right">
+              <img src="img/partners.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="footer__body">
+          <div class="footer__column">
+            <div class="footer__logo">
+              <img src="img/logo-footerr.png" alt="" />
+            </div>
+			<div class="footer__column-block">
+				<div class="footer__address">
+					<span>Адрес: </span><br />
+					121596, г.Москва, ул. Горбунова, д.2,<br> стр.3, пом II, офис 151
+				  </div>
+				  <div class="footer__email">
+					<a href="mailto:info@proektgn.com">info@proektgn.com</a>
+				  </div>
+				  <div class="footer__map">
+					<a href="#">Карта сайта</a>
+				  </div>
+			</div>
+
+          </div>
+          <div class="footer__column">
+			  <h4>Меню сайта</h4>
+            <ul>
+              
+              <br />
+              <li><a href="#">Услуги</a></li>
+              <li><a href="#">О компании</a></li>
+              <li><a href="#">Франшиза</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+			<h5>Мы в социальных сетях:</h5> 
+            <ul class="footer__soc">
+             
+              <li>
+                <a href="">
+                  <img src="img/watsapp.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="img/telegramm.svg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="img/inst-logo.png" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href=""><img src="img/vk-logo.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+			  <h4>Услуги</h4>
+            <ul>
+              
+              <li><a href="">Консультации по препаратам </a></li>
+              <li><a href="">Консультация пациентов </a></li>
+              <li><a href="">Медицинский туризм </a></li>
+              <li><a href="">Автоматизация бизнес-процессов </a></li>
+              <li><a href="">Техническая поддержка </a></li>
+              <li><a href="">Разработка и продвижение сайтов </a></li>
+              <li><a href="">Написание текстов </a></li>
+              <li><a href="">Раскрутка и продюсирование врачей </a></li>
+            </ul>
+          </div>
+		  <div class="footer__column">
+			  <h4>Информация</h4>
+			  <ul>
+				  <li><a href="">Юридическая информация</a></li>
+				  <li><a href="">Политика конфидециальности</a></li>
+				  <li><a href="">Согласие на обработку персональных данных</a></li>
+			  </ul>
+		  </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+  </body>
+</html>

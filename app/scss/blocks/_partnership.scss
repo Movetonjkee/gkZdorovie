@@ -1,0 +1,44 @@
+.partnership__body {
+    max-width: 1400px;
+    margin: 0 auto;
+    .title-block {
+        justify-content: flex-start;
+        margin-bottom: 60px;
+    }
+    h3 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+.partnership__content {
+    display: flex;
+}
+.partnership__left {
+    p {
+        margin-bottom: 70px;
+    }
+}
+.partnership__btn {
+    padding: 24px 33px;
+}
+.partnership__icon {
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+}
+.partnership__info {
+    width: 315px;
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    position: relative;
+    background: rgba(241, 246, 253, 0.8);
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: 50px;
+}
